@@ -1,3 +1,4 @@
 #!/bin/bash
-service tomcat9 start
-service tomcat9 restart
+echo "hai"
+#service tomcat9 start
+#service tomcat9 restart
