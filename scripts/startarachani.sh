@@ -16,7 +16,7 @@ then
 
  touch f4.html
 
- ./arachni http://13.112.218.94:8080/DemoPipelineJava-0.0.1-SNAPSHOT/ --checks=xss* > f4.html
+ ./arachni http://3.112.220.28:8080/DemoPipelineJava-0.0.1-SNAPSHOT/ --checks=xss* > f4.html
 
  aws s3 cp f4.html s3://archni/ --grants read=uri=http://acs.amazonaws.com/groups/global/AllUsers
  
@@ -32,7 +32,7 @@ else
  
  touch f4.html
 
- ./arachni http://13.112.218.94:8080/DemoPipelineJava-0.0.1-SNAPSHOT/ --checks=xss* > f4.html
+ ./arachni http://3.112.220.28:8080/DemoPipelineJava-0.0.1-SNAPSHOT/ --checks=xss* > f4.html
 
  aws s3 cp f4.html s3://archni/ --grants read=uri=http://acs.amazonaws.com/groups/global/AllUsers
 
